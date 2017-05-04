@@ -46,7 +46,7 @@ send "\PUT PASSWORD HERE\r"
 
 In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties.  
 ```
-chmod 777 git_push_template.sh
+chmod 777 sshing_template.sh
 ```
 
 ## Chmod - File Permission Commands
@@ -55,9 +55,9 @@ First number = Owner File Permissions
 Second number = Group File Permissions
 Third number = Other File Permissions
 
-Example of Owner Read, Write Execute, Everyone else (Group, Other) can only Read and Execute, thus cannot change file, read only:
+Example of Owner Read, Write Execute, Everyone else (Group, Other) can only Read and Execute, thus cannot change file (read only):
 ```
-775
+chmod 775 filename.extension
 ```
 
 0. No Permissions
