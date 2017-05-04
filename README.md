@@ -20,6 +20,11 @@ Change the password to your password for your github account.
 send "1234PASSWORD\r"
 ```
 
+In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties.  
+```
+chmod 777 git_push_template.sh
+```
+
 ## SSH Template
 
 SSH Template was created to reduce the constant need to constantly enter your ssh link and password. 
@@ -38,3 +43,28 @@ Change the password you want to send to automatically have entered for you:
 ```
 send "\PUT PASSWORD HERE\r"
 ```
+
+In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties.  
+```
+chmod 777 git_push_template.sh
+```
+
+## Chmod - File Permission Commands
+
+First number = Owner File Permissions 
+Second number = Group File Permissions
+Third number = Other File Permissions
+
+Example of Owner Read, Write Execute, Everyone else (Group, Other) can only Read and Execute, thus cannot change file, read only:
+```
+775
+```
+
+0. No Permissions
+1. Execute
+2. Write
+3. Write and Execute
+4. Read
+5. Read and Execute
+6. Read and Write
+7. Read, Write, Execute
