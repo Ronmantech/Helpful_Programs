@@ -1,4 +1,4 @@
-# Useful_Programs
+# Useful Programs
 This Repository contains some random useful code to help reduce redundant tasks.
 
 ## Git Push Template
