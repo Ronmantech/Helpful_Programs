@@ -1,5 +1,5 @@
 # Useful_Programs
-This repo contains some rand code to help with various things. 
+This Repository contains some random useful code to help reduce redundant tasks.
 
 ## Git Push Template
 
