@@ -55,7 +55,7 @@ chmod 777 sshing_template.sh
 * Second number = Group File Permissions
 * Third number = Other File Permissions
 
-Example of Owner Read, Write Execute, Everyone else (Group, Other) can only Read and Execute, thus cannot change file (read only):
+Example: The Owner has Read, Write, Execute permissions, everyone else (Group, Other) can only Read and Execute(read only for everyone else):
 ```
 chmod 775 filename.extension
 ```
