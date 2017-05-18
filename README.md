@@ -71,7 +71,7 @@ chmod 775 filename.extension
 
 Example: Type "ls -l" into command line, this is what you will get:
 ```
--rwxrwxrwx   1 your_username  staff   148 May  4 01:12 testfile.sh
+-rwxrwxrwx   1 your_username  staff  148  May 4 01:12 testfile.sh
 ```
 * Directory: d
 * Read: r
