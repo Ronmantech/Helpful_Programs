@@ -76,7 +76,7 @@ Example: Type "ls -l" into command line, this is what you will get:
 * Directory: d
 * Read: r
 * Write: w
-* Execut: x
+* Execute: x
 
 Example: The first letter indicates it is a directory. The next 3 letters are for you (the owner) you have read, write, exectue abilites. Group and Others only have read and execute abilites, no writing (no editing the file).
 ```
