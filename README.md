@@ -73,10 +73,12 @@ Example: Type "ls -l" into command line, this is what you will get:
 ```
 -rwxrwxrwx   1 your_username  staff   148 May  4 01:12 filename.file_extension
 ```
-
+Directory: d
 Read: r
 Write: w
 Execut: x
+
+Example: The first letter indicates it is a directory. The next 3 letters are for your (the owner) you have read, write, exectue abilites. Group and Others only have read and execute abilites, no writing (no editing the file).
 ```
--rwx
+drwxr-xr-x
 ```
