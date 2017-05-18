@@ -78,7 +78,7 @@ Read: r
 Write: w
 Execut: x
 
-Example: The first letter indicates it is a directory. The next 3 letters are for your (the owner) you have read, write, exectue abilites. Group and Others only have read and execute abilites, no writing (no editing the file).
+Example: The first letter indicates it is a directory. The next 3 letters are for you (the owner) you have read, write, exectue abilites. Group and Others only have read and execute abilites, no writing (no editing the file).
 ```
 drwxr-xr-x
 ```
