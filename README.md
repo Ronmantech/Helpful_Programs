@@ -68,3 +68,15 @@ chmod 775 filename.extension
 5. Read and Execute
 6. Read and Write
 7. Read, Write, Execute
+
+Example: Type "ls -l" into command line, this is what you will get:
+```
+-rwxrwxrwx   1 your_username  staff   148 May  4 01:12 filename.file_extension
+```
+
+Read: r
+Write: w
+Execut: x
+```
+-rwx
+```
