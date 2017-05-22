@@ -1,9 +1,9 @@
 # Helpful Programs
 This Repository contains some random useful code to help reduce redundant tasks.
 
-## Git Push Template
+## Git Push/Puller Template
 
-Git Pusher template was created to reduce the need to constantly enter your username and password whenever pushing to github. 
+Git Pusher & Puller template was created to reduce the need to constantly enter your username and password whenever pushing to github. 
 
 Change the username with your username for your github email:
 ```
