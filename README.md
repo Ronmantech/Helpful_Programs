@@ -29,7 +29,7 @@ chmod 777 git_push_template.sh
 
 SSH Template was created to reduce the constant need to constantly enter your ssh link and password. 
 
-Change the ssh link here to the link you want to connect to:
+Change the ssh link, to the link you want to connect to:
 ``` 
 spawn ssh "\ENTER SSH LINK HERE"
 ```
