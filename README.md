@@ -3,19 +3,19 @@ This Repository contains some random useful code to help reduce redundant tasks.
 
 ## Git Push/Puller Template
 
-Git Pusher & Puller template was created to reduce the need to constantly enter your username and password whenever pushing to github. 
+Git Pusher & Puller template was created to reduce the need to constantly enter your username and password whenever pushing to github when connected over ssh to server. 
 
 Change the username with your username for your github email:
 ```
 send "johnnyappleseed@gmail.com\r"
 ```
 
-Change the expect line with your github account username: 
+Change the expect line with your github account username:
 ```
 expect "Password for 'https://johnnyappleseed@gmail.com@github.com': "
 ```
 
-Change the password to your password for your github account. 
+Change the password to your password for your github account.
 ```
 send "1234PASSWORD\r"
 ```
@@ -27,16 +27,16 @@ chmod 777 git_push_template.sh
 
 ## SSH Template
 
-SSH Template was created to reduce the constant need to constantly enter your ssh link and password. 
+SSH Template was created to reduce the constant need to constantly enter your ssh link and password.
 
 Change the ssh link, to the link you want to connect to:
-``` 
+```
 spawn ssh "\ENTER SSH LINK HERE"
 ```
 
 Change the expect statement to what your ssh typically replies with by asking your password:
 ```
-expect "\ENTER THE STRING THAT WILL COME TO ENTER PASSWORD"  # i.e. "password: " 
+expect "\ENTER THE STRING THAT WILL COME TO ENTER PASSWORD"  # i.e. "password: "
 ```
 
 Change the password you want to send to automatically have entered for you:
@@ -51,7 +51,7 @@ chmod 777 sshing_template.sh
 
 ## Chmod - File Permission Commands
 
-* First number = Owner File Permissions 
+* First number = Owner File Permissions
 * Second number = Group File Permissions
 * Third number = Other File Permissions
 
