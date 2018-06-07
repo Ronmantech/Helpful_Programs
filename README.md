@@ -24,6 +24,19 @@ In order for this script to work/run, you need to make this file executable. Thi
 ```
 chmod 777 git_push_template.sh
 ```
+## Git git_pusher_args.sh
+
+Pusher.sh was created and the idea to quickly add, commit and push. To use first check the execution abilities of the file, the file needs to be executable to work. Run the following command:
+```
+ls -l pusher.sh
+```
+
+If the output contains an 'x', that means it can be executed. To execute and pass the arguments (message):
+```
+./pusher package update
+````
+"Package" and "update" are passed as arguments and can be thought of as the portion of the commit that is sent (git commit -m "package update"). More arguments can be passed provided the variables are defined and added to together to support the concatenation of the strings.  
+
 
 ## SSH Template
 
