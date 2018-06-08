@@ -22,18 +22,18 @@ send "1234PASSWORD\r"
 
 In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties. More about File Permissions at the end.  
 ```
-chmod 777 git_push_template.sh
+$ chmod 777 git_push_template.sh
 ```
 ## Git git_pusher_args.sh
 
 Pusher.sh was created and the idea to quickly add, commit and push. To use first check the execution abilities of the file, the file needs to be executable to work. Run the following command:
 ```
-ls -l pusher.sh
+$ ls -l pusher.sh
 ```
 
 If the output contains an 'x', that means it can be executed. To execute and pass the arguments (message):
 ```
-./pusher package update
+$ ./pusher package update
 ````
 "Package" and "update" are passed as arguments and can be thought of as the portion of the commit that is sent (git commit -m "package update"). More arguments can be passed provided the variables are defined and added to together to support the concatenation of the strings.  
 
@@ -59,7 +59,7 @@ send "\PUT PASSWORD HERE\r"
 
 In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties. More about File Permissions at the end.
 ```
-chmod 777 sshing_template.sh
+$ chmod 777 sshing_template.sh
 ```
 
 ## Chmod - File Permission Commands
@@ -70,7 +70,7 @@ chmod 777 sshing_template.sh
 
 Example: The Owner has Read, Write, Execute permissions, everyone else (Group, Other) can only Read and Execute(read only for everyone else):
 ```
-chmod 775 filename.extension
+$ chmod 775 filename.extension
 ```
 
 0. No Permissions
