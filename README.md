@@ -20,7 +20,7 @@ Change the password to your password for your github account.
 send "1234PASSWORD\r"
 ```
 
-In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties. More about File Permissions at the end.  
+In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilities. More about File Permissions at the end.  
 ```
 $ chmod 777 git_push_template.sh
 ```
@@ -57,7 +57,7 @@ Change the password you want to send to automatically have entered for you:
 send "\PUT PASSWORD HERE\r"
 ```
 
-In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilties. More about File Permissions at the end.
+In order for this script to work/run, you need to make this file executable. This can be done by changing the read, write, execut file permissions. chmod changes file permissions. 7 represents read, write, executable abilities, which is needed to work. In order to edit the file, chmod 777, then make the necessary changes then chmod back to 555. 5 represents read and execut abilites without write abilities. More about File Permissions at the end.
 ```
 $ chmod 777 sshing_template.sh
 ```
